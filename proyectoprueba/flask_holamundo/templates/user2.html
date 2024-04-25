@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block content%}
+<header>
+    <h1>Esto es una copia</h1>
+</header>
+
+    <h4>esta si es otra pagina</h4>
+<p> Otro template</p>
+    <h4> {{ name }}</h4>
+
+    {% if age > 18 %}
+        <p>es mayor de edad. </p>
+    {% endif %}
+
+    {% for item in list %}
+    <p> {{ item }} </p>
+    {% endfor %}
+{% endblock %}
+

@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block title %} {{ title }} {% endblock %}
+
+{% block content %}
+
+    {% from "_macro.html" import show_list_h %}
+
+    {{ show_list_h( title ) }}
+
+{% endblock %}

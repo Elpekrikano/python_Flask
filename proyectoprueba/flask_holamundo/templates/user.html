@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block content %}
+<header>
+    <h1>prueba de que si entendi </h1>
+</header>
+
+    <h4>esta si es otra pagina</h4>
+    <h4> {{ name }}</h4>
+    <p>{{ age }}</p>
+
+
+    {% if age > 18 %}
+        <p>es mayor de edad. </p>
+    {% endif %}
+
+    {% for item in list %}
+    <p> {{ item }} </p>
+    {% endfor %}
+{% endblock %}
+
