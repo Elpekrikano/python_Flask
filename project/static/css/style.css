@@ -8,3 +8,46 @@ max-height: 80%;
 height: auto;
 width: auto;
 }
+
+/* Estilos para el formulario */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los mensajes de error */
+.error-message {
+    color: red;
+}
